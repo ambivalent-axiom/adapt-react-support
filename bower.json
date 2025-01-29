@@ -1,6 +1,6 @@
 {
     "name": "adapt-react-support",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "framework": ">=5",
     "homepage": "https://github.com/ambivalent-axiom/adapt-react-support",
     "issues": "https://github.com/ambivalent-axiom/adapt-react-support/issues",
@@ -8,6 +8,10 @@
     "displayName": "React Support",
     "description": "Adds React support to your Adapt course",
     "main": "/js/adapt-react-support.js",
+    "scripts": [
+      "/js/vendor/react.production.min.js",
+      "/js/vendor/react-dom.production.min.js"
+    ],
     "keywords": [
       "adapt-plugin",
       "adapt-extension",
